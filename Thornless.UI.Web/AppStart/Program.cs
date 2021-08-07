@@ -24,8 +24,8 @@ namespace Thornless.UI.Web.AppStart
                     }
                     else
                     {  
-                        var sumoLogicOptions = context.Configuration.GetSection("Logging:SumoLogic").Get<LoggerOptions>();
-                        logging.AddSumoLogic(sumoLogicOptions);
+                        // var sumoLogicOptions = context.Configuration.GetSection("Logging:SumoLogic").Get<LoggerOptions>();
+                        // logging.AddSumoLogic(sumoLogicOptions);
                     }
                 })
                 .ConfigureWebHostDefaults(webBuilder =>
